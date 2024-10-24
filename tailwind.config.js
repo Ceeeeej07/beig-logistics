@@ -1,4 +1,5 @@
 import defaultTheme from "tailwindcss/defaultTheme";
+import daisyui from "daisyui";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -25,5 +26,19 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [daisyui],
+
+    daisyui: {
+        themes: [
+            {
+                mytheme: {
+                    primary: "white", //royal blue?
+                    "base-content": "#0B2F5B", // pastel blue?
+                    secondary: "#ffa500", // yellowish gold?
+                    accent: "#ffa500",
+                    background: "#ffffff",
+                },
+            },
+        ],
+    },
 };
