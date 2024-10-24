@@ -181,5 +181,4 @@
         <p>Copyright &copy; 2024 BIGG BOII STATUS | Powered by Don R. Scott</p>
       </div>
     </div>
-    
 </x-layout>
