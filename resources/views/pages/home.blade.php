@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <!-- Seamless User Experience -->
+                <!-- Seamless User Experience. -->
                 <div class="flex items-center space-x-4">
                     <img src="img/star-home.svg" alt="Seamless User Experience" class="h-16" />
                     <div class="text-left">
